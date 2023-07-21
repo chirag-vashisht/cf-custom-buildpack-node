@@ -47,6 +47,12 @@ dependencies:
   cf_stacks:
   - cflinuxfs3
 - name: node
+  version: 6.9.3
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.9.3-linux-x64.tgz
+  md5: 1687dab3977a5f20c069802a6b71b790
+  cf_stacks:
+  - cflinuxfs3
+- name: node
   version: 6.14.3
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.14.3-linux-x64-cflinuxfs3-26921908.tgz
   sha256: 26921908430c3749c93bdc4bc21ba0ff6dbfda4dc36d6a3c5f086fab7f10c378
